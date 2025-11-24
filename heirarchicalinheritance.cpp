@@ -3,7 +3,7 @@ using namespace std;
 class base {
     public:
     void display(){
-        cout<<"base dispaly function"<<endl;
+        cout<<"base display function"<<endl;
     }
 };
 class derived1 : public base {
@@ -26,4 +26,5 @@ int main(){
     obj2.display();
     obj2.print();
 }
+
 
